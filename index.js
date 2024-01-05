@@ -19,7 +19,7 @@ const writeFileAsync = promisify(fs.writeFile);
 const ONE_DAY_MS = 24 * 60 * 60 * 1000; 
 
 // BOT ONLY 
-const botToken = 'YOUR_BOT_TOKEN_HERE'
+const botToken = '6705865154:AAHLnVNKMNpkZMrn36JMt0XiHvu6T5b4aLM'
 const bot = new Telegraf(botToken);
 
 // DATABASE
